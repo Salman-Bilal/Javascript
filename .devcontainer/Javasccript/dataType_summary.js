@@ -11,3 +11,7 @@ let Id = Symbol('123')
 let anotherId = Symbol('123')
 
 console.log(Id === anotherId); //output: false 
+
+//=======================================================================
+
+//Stack Memory(Premitive), Heap Memory(No Premitive)
