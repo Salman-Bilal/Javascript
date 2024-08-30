@@ -2,7 +2,7 @@ const mysymb = Symbol("Key")
 const User={
     name: "salman",
     age: "20",
-    [mysymb]: "mykey",
+    [mysymb]: "mykey", //my symbol is also access by []
     mail: "salman@gmail.com" 
 }
 
