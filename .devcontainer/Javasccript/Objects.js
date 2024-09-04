@@ -70,8 +70,18 @@ const User1 = [
 
 User1[1].id;
 
-console.log(Object.keys(Studentprotal));
-console.log(Object.values(Studentprotal))
-console.log(Object.entries(Studentprotal));
+// console.log(Object.keys(Studentprotal));
+// console.log(Object.values(Studentprotal))
+// console.log(Object.entries(Studentprotal));
 
-console.log(Studentprotal.hasOwnProperty('name'))
+// console.log(Studentprotal.hasOwnProperty('name'))
+
+const Course = {
+    Coursename: "SRE",
+    CourseInstructor: "Abdullah",
+    CourseId: "CS1231"
+}
+
+const {CourseInstructor: Instructor} = Course   //Objects de structuring
+
+console.log(Instructor);
