@@ -70,7 +70,7 @@ const User1 = [
 
 User1[1].id;
 
-// console.log(Object.keys(Studentprotal));
+console.log(Object.keys(Studentprotal));
 // console.log(Object.values(Studentprotal))
 // console.log(Object.entries(Studentprotal));
 
